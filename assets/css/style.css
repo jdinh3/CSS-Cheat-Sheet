@@ -1,0 +1,75 @@
+/* Universal Selectors */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(53, 53, 65);
+    
+}
+
+/* Element Selectors */
+h1 {
+    color:rgb(189, 20, 189);
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h3 {
+    color: rgb(189, 20, 189);
+}
+
+/* Class Selectors */
+.intro {
+    color: white;
+
+}
+
+.card {
+    border: 2px dashed white;
+    flex: 1 0 150px;
+    margin: 30px 30px;
+    flex: 1 0 0;
+}
+
+.card h2 {
+    color: rgb(189, 20, 189);
+}
+
+section.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    justify-content: space-around;
+}
+
+.card-title {
+    border: 3px solid white;
+    color: rgb(189, 20, 189);
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    margin-top: -20px;
+}
+
+.card-body {
+    color: rgb(189, 20, 189);
+    margin-left: 30px;
+    
+}
+
+.card-block {
+    background: rgb(176,59,176);
+background: linear-gradient(0deg, rgba(176,59,176,1) 0%, rgba(64,33,64,1) 99%);
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    margin: 25px;
+}
